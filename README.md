@@ -1,1 +1,1 @@
-# Plant-Disease-Detections
+# Plant-Disease-Detection
