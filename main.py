@@ -9,8 +9,8 @@ st.set_page_config(page_title="CropDoc: Disease Recognition", page_icon="🌿", 
 
 # Function to download the model from Google Drive
 def download_model():
-    file_id = "1ITgWByH94WdOvEoF_l3m8HhjFDuthTAi"
-    model_path = "trained.h5"
+    file_id = "145PdUPkRDiH6FToezUaM8RlQGPfjC1QB"
+    model_path = "trained_model.h5"
     if not os.path.exists(model_path):  # Check if the model already exists
         gdown.download(f"https://drive.google.com/uc?id={file_id}", model_path, quiet=False)
     return model_path
