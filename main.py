@@ -70,7 +70,7 @@ if test_image:
         predicted_disease = class_name[result_index]
 
         st.success(f"✅ **Prediction Result:** `{predicted_disease}`")
-        st.markdown("🧪 *This is an AI-based prediction. Please verify with an expert if needed.*")
+        
 
 else:
     st.info("👈 Upload a plant leaf image to get started.")
